@@ -179,3 +179,12 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# Home Credit raw dataset
+data/*.csv
+data/*.zip
+data/*.7z
+
+# Model files
+models/
+*.pkl
+*.joblib
